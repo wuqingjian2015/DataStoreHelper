@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2E14FA1CB715670096A7F2 /* DataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E14F91CB715670096A7F2 /* DataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2E150D1CB716420096A7F2 /* SSVisitorRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E15011CB716420096A7F2 /* SSVisitorRecord.h */; };
+		3F2E150E1CB716420096A7F2 /* SSVisitorRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E15021CB716420096A7F2 /* SSVisitorRecord.m */; };
+		3F2E150F1CB716420096A7F2 /* SSVisitorRecord+serializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E15031CB716420096A7F2 /* SSVisitorRecord+serializer.h */; };
+		3F2E15101CB716420096A7F2 /* SSVisitorRecord+serializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E15041CB716420096A7F2 /* SSVisitorRecord+serializer.m */; };
+		3F2E15111CB716420096A7F2 /* SSVisitorRecordCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E15051CB716420096A7F2 /* SSVisitorRecordCollection.h */; };
+		3F2E15121CB716420096A7F2 /* SSVisitorRecordCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E15061CB716420096A7F2 /* SSVisitorRecordCollection.m */; };
+		3F2E15131CB716420096A7F2 /* SSVisitorRecordCollection+archiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E15071CB716420096A7F2 /* SSVisitorRecordCollection+archiver.h */; };
+		3F2E15141CB716420096A7F2 /* SSVisitorRecordCollection+archiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E15081CB716420096A7F2 /* SSVisitorRecordCollection+archiver.m */; };
+		3F2E15151CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E15091CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.h */; };
+		3F2E15161CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E150A1CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.m */; };
+		3F2E15171CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E150B1CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.h */; };
+		3F2E15181CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E150C1CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.m */; };
+		3F2E151B1CB716540096A7F2 /* VisitorRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E15191CB716540096A7F2 /* VisitorRecord.xcdatamodeld */; };
+		3F2E15201CB716770096A7F2 /* VisitorRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E151C1CB716770096A7F2 /* VisitorRecord.h */; };
+		3F2E15211CB716770096A7F2 /* VisitorRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E151D1CB716770096A7F2 /* VisitorRecord.m */; };
+		3F2E15221CB716770096A7F2 /* VisitorRecord+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E151E1CB716770096A7F2 /* VisitorRecord+CoreDataProperties.h */; };
+		3F2E15231CB716770096A7F2 /* VisitorRecord+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E151F1CB716770096A7F2 /* VisitorRecord+CoreDataProperties.m */; };
+		3F2E15271CB7170F0096A7F2 /* SSSQLiteHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E15251CB7170F0096A7F2 /* SSSQLiteHelper.h */; };
+		3F2E15281CB7170F0096A7F2 /* SSSQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E15261CB7170F0096A7F2 /* SSSQLiteHelper.m */; };
+		3F2E152B1CB717BC0096A7F2 /* SSCoreDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2E15291CB717BC0096A7F2 /* SSCoreDataHelper.h */; };
+		3F2E152C1CB717BC0096A7F2 /* SSCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E152A1CB717BC0096A7F2 /* SSCoreDataHelper.m */; };
+		3F2E152F1CB7189A0096A7F2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2E152E1CB7189A0096A7F2 /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2E14F61CB715660096A7F2 /* DataStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2E14F91CB715670096A7F2 /* DataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		3F2E14FB1CB715670096A7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2E15011CB716420096A7F2 /* SSVisitorRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSVisitorRecord.h; sourceTree = "<group>"; };
+		3F2E15021CB716420096A7F2 /* SSVisitorRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSVisitorRecord.m; sourceTree = "<group>"; };
+		3F2E15031CB716420096A7F2 /* SSVisitorRecord+serializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSVisitorRecord+serializer.h"; sourceTree = "<group>"; };
+		3F2E15041CB716420096A7F2 /* SSVisitorRecord+serializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSVisitorRecord+serializer.m"; sourceTree = "<group>"; };
+		3F2E15051CB716420096A7F2 /* SSVisitorRecordCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSVisitorRecordCollection.h; sourceTree = "<group>"; };
+		3F2E15061CB716420096A7F2 /* SSVisitorRecordCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSVisitorRecordCollection.m; sourceTree = "<group>"; };
+		3F2E15071CB716420096A7F2 /* SSVisitorRecordCollection+archiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSVisitorRecordCollection+archiver.h"; sourceTree = "<group>"; };
+		3F2E15081CB716420096A7F2 /* SSVisitorRecordCollection+archiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSVisitorRecordCollection+archiver.m"; sourceTree = "<group>"; };
+		3F2E15091CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSVisitorRecordCollection+CoreDataHelper.h"; sourceTree = "<group>"; };
+		3F2E150A1CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSVisitorRecordCollection+CoreDataHelper.m"; sourceTree = "<group>"; };
+		3F2E150B1CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSVisitorRecordCollection+SQLiteHelper.h"; sourceTree = "<group>"; };
+		3F2E150C1CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSVisitorRecordCollection+SQLiteHelper.m"; sourceTree = "<group>"; };
+		3F2E151A1CB716540096A7F2 /* VisitorRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VisitorRecord.xcdatamodel; sourceTree = "<group>"; };
+		3F2E151C1CB716770096A7F2 /* VisitorRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorRecord.h; sourceTree = "<group>"; };
+		3F2E151D1CB716770096A7F2 /* VisitorRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorRecord.m; sourceTree = "<group>"; };
+		3F2E151E1CB716770096A7F2 /* VisitorRecord+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VisitorRecord+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3F2E151F1CB716770096A7F2 /* VisitorRecord+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VisitorRecord+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3F2E15251CB7170F0096A7F2 /* SSSQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSQLiteHelper.h; sourceTree = "<group>"; };
+		3F2E15261CB7170F0096A7F2 /* SSSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSQLiteHelper.m; sourceTree = "<group>"; };
+		3F2E15291CB717BC0096A7F2 /* SSCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCoreDataHelper.h; sourceTree = "<group>"; };
+		3F2E152A1CB717BC0096A7F2 /* SSCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCoreDataHelper.m; sourceTree = "<group>"; };
+		3F2E152E1CB7189A0096A7F2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2E14F21CB715660096A7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E152F1CB7189A0096A7F2 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2E14EC1CB715660096A7F2 = {
+			isa = PBXGroup;
+			children = (
+				3F2E152E1CB7189A0096A7F2 /* libsqlite3.0.tbd */,
+				3F2E14F81CB715660096A7F2 /* DataStore */,
+				3F2E14F71CB715660096A7F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2E14F71CB715660096A7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E14F61CB715660096A7F2 /* DataStore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2E14F81CB715660096A7F2 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E15241CB7167F0096A7F2 /* CoreDataModel */,
+				3F2E15011CB716420096A7F2 /* SSVisitorRecord.h */,
+				3F2E15021CB716420096A7F2 /* SSVisitorRecord.m */,
+				3F2E15031CB716420096A7F2 /* SSVisitorRecord+serializer.h */,
+				3F2E15041CB716420096A7F2 /* SSVisitorRecord+serializer.m */,
+				3F2E15051CB716420096A7F2 /* SSVisitorRecordCollection.h */,
+				3F2E15061CB716420096A7F2 /* SSVisitorRecordCollection.m */,
+				3F2E15071CB716420096A7F2 /* SSVisitorRecordCollection+archiver.h */,
+				3F2E15081CB716420096A7F2 /* SSVisitorRecordCollection+archiver.m */,
+				3F2E15091CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.h */,
+				3F2E150A1CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.m */,
+				3F2E152D1CB717F40096A7F2 /* DirectSQLite */,
+				3F2E14F91CB715670096A7F2 /* DataStore.h */,
+				3F2E14FB1CB715670096A7F2 /* Info.plist */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		3F2E15241CB7167F0096A7F2 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E151C1CB716770096A7F2 /* VisitorRecord.h */,
+				3F2E151D1CB716770096A7F2 /* VisitorRecord.m */,
+				3F2E151E1CB716770096A7F2 /* VisitorRecord+CoreDataProperties.h */,
+				3F2E151F1CB716770096A7F2 /* VisitorRecord+CoreDataProperties.m */,
+				3F2E15291CB717BC0096A7F2 /* SSCoreDataHelper.h */,
+				3F2E152A1CB717BC0096A7F2 /* SSCoreDataHelper.m */,
+				3F2E15191CB716540096A7F2 /* VisitorRecord.xcdatamodeld */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		3F2E152D1CB717F40096A7F2 /* DirectSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E15251CB7170F0096A7F2 /* SSSQLiteHelper.h */,
+				3F2E15261CB7170F0096A7F2 /* SSSQLiteHelper.m */,
+				3F2E150B1CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.h */,
+				3F2E150C1CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.m */,
+			);
+			name = DirectSQLite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F2E14F31CB715660096A7F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E150D1CB716420096A7F2 /* SSVisitorRecord.h in Headers */,
+				3F2E15151CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.h in Headers */,
+				3F2E15271CB7170F0096A7F2 /* SSSQLiteHelper.h in Headers */,
+				3F2E14FA1CB715670096A7F2 /* DataStore.h in Headers */,
+				3F2E15221CB716770096A7F2 /* VisitorRecord+CoreDataProperties.h in Headers */,
+				3F2E15111CB716420096A7F2 /* SSVisitorRecordCollection.h in Headers */,
+				3F2E15201CB716770096A7F2 /* VisitorRecord.h in Headers */,
+				3F2E15171CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.h in Headers */,
+				3F2E150F1CB716420096A7F2 /* SSVisitorRecord+serializer.h in Headers */,
+				3F2E15131CB716420096A7F2 /* SSVisitorRecordCollection+archiver.h in Headers */,
+				3F2E152B1CB717BC0096A7F2 /* SSCoreDataHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F2E14F51CB715660096A7F2 /* DataStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2E14FE1CB715670096A7F2 /* Build configuration list for PBXNativeTarget "DataStore" */;
+			buildPhases = (
+				3F2E14F11CB715660096A7F2 /* Sources */,
+				3F2E14F21CB715660096A7F2 /* Frameworks */,
+				3F2E14F31CB715660096A7F2 /* Headers */,
+				3F2E14F41CB715660096A7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStore;
+			productName = DataStore;
+			productReference = 3F2E14F61CB715660096A7F2 /* DataStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2E14ED1CB715660096A7F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = QingjianWu;
+				TargetAttributes = {
+					3F2E14F51CB715660096A7F2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3F2E14F01CB715660096A7F2 /* Build configuration list for PBXProject "DataStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F2E14EC1CB715660096A7F2;
+			productRefGroup = 3F2E14F71CB715660096A7F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2E14F51CB715660096A7F2 /* DataStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2E14F41CB715660096A7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2E14F11CB715660096A7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E150E1CB716420096A7F2 /* SSVisitorRecord.m in Sources */,
+				3F2E15231CB716770096A7F2 /* VisitorRecord+CoreDataProperties.m in Sources */,
+				3F2E15211CB716770096A7F2 /* VisitorRecord.m in Sources */,
+				3F2E15181CB716420096A7F2 /* SSVisitorRecordCollection+SQLiteHelper.m in Sources */,
+				3F2E15121CB716420096A7F2 /* SSVisitorRecordCollection.m in Sources */,
+				3F2E15101CB716420096A7F2 /* SSVisitorRecord+serializer.m in Sources */,
+				3F2E15161CB716420096A7F2 /* SSVisitorRecordCollection+CoreDataHelper.m in Sources */,
+				3F2E15281CB7170F0096A7F2 /* SSSQLiteHelper.m in Sources */,
+				3F2E152C1CB717BC0096A7F2 /* SSCoreDataHelper.m in Sources */,
+				3F2E151B1CB716540096A7F2 /* VisitorRecord.xcdatamodeld in Sources */,
+				3F2E15141CB716420096A7F2 /* SSVisitorRecordCollection+archiver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F2E14FC1CB715670096A7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F2E14FD1CB715670096A7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F2E14FF1CB715670096A7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataStore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QingjianWu.DataStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F2E15001CB715670096A7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataStore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QingjianWu.DataStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2E14F01CB715660096A7F2 /* Build configuration list for PBXProject "DataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2E14FC1CB715670096A7F2 /* Debug */,
+				3F2E14FD1CB715670096A7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2E14FE1CB715670096A7F2 /* Build configuration list for PBXNativeTarget "DataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2E14FF1CB715670096A7F2 /* Debug */,
+				3F2E15001CB715670096A7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F2E15191CB716540096A7F2 /* VisitorRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F2E151A1CB716540096A7F2 /* VisitorRecord.xcdatamodel */,
+			);
+			currentVersion = 3F2E151A1CB716540096A7F2 /* VisitorRecord.xcdatamodel */;
+			path = VisitorRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F2E14ED1CB715660096A7F2 /* Project object */;
+}
